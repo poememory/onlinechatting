@@ -1,0 +1,54 @@
+.loginPage{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #A4CDF5,#035E70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbox{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    padding-top: 40px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 20px -16px teal;
+}
+.loginTerm{
+    width: 300px;
+    display: flex;
+    justify-content: space-around; 
+}
+.loginTerm input{
+    width: 200px;
+    padding-left: 10px;
+    height: 24px;
+}
+.loginTag{
+    display: flex;
+    justify-content: space-evenly;
+    width: 5em;
+}
+.mainbutton{
+    cursor: pointer;
+    background-color:#F79227;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.tipbutton{
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    text-decoration: underline;
+}

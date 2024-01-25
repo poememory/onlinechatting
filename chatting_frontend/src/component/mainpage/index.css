@@ -1,0 +1,127 @@
+
+.mainPage{
+    width: 100vw;
+    height: 98vh;
+    background-color: #D1D1D1;
+    position: relative;
+}
+.topbar{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color:#FFAF25;
+}
+.title{
+    font-size: 5vh;
+}
+.username{
+    position: absolute;
+    right: 2vw;
+    bottom: 1vh;
+}
+.contentsbox{
+    width: 100vw;
+    height: 86vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}   
+.elsecontentbox,.mycontentbox{
+    width: 100vw;
+    height: 6vh;   
+    position: relative;    
+}
+.avatar{
+    margin-top: 0.5vh;
+    width: 5vh;
+    height: 4vh;
+    padding-bottom: 1vh;
+    background-color: #919191;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+.content{
+    display: inline-block;
+    padding: 0.5vw;
+    font-size: 2vh;
+    height: 2.5vh;
+    border-radius: 0.8vh;
+    background-color: white;
+}
+.content_user{
+    font-size: 1.2vh;
+    color: #595959;
+}
+.time_stick{
+    font-size: 1vh;
+}
+
+.elsecontentbox .avatar{
+        position: absolute;
+        left: 1vh;
+    }
+.elsecontentbox .content{
+        position: absolute;
+        left: 8vh;
+        bottom: 0;
+    }
+.elsecontentbox .content_user{
+        position: absolute;
+        top: 0;
+        left: 8vh;
+    }
+.elsecontentbox .time_stick{
+        position: absolute;
+        bottom: 2vh;
+        right: 1vh;
+    }
+
+
+    .mycontentbox    .avatar{
+        position: absolute;
+        right: 1vh;
+        background-color: #FFAF25;
+    }
+    .mycontentbox .content{
+        position: absolute;
+        right: 8vh;
+        bottom: 0;
+        background-color: #6FABF2;
+        color: white;
+    }
+    .mycontentbox .content_user{
+        position: absolute;
+        top: 0;
+        right: 8vh;
+    }
+    .mycontentbox .time_stick{
+        position: absolute;
+        bottom: 2vh;
+        left: 1vh;
+    }
+
+.input{
+    position: absolute;
+    bottom: 1vh;
+    left: 2vh;
+    width: 80vw;
+    height: 3vh;
+    font-size: 2.3vh;
+}
+.sendmessage{
+    position: absolute;
+    bottom: 0.5vh;
+    right: 1vw;
+    width: 15vw;
+    height: 3.5vh;
+    padding-top: 1vh;
+    font-size: 2.5vh;
+    text-align: center;
+    background-color: #FFAF25;
+    border-radius: 1.4vh;
+}
